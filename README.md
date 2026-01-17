@@ -71,11 +71,6 @@ python -m venv .venv
 pip install jupyter ipykernel
 ```
 
-**Register the kernel:**
-```bash
-python -m ipykernel install --user --name=.venv --display-name "Python (.venv)"
-```
-
 ### 4. Open the Notebook
 You can use the classic Jupyter interface or VS Code:
 
